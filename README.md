@@ -3,9 +3,9 @@
 
 ## Integrantes 
 
-SHANTI MARYSE GUTIÉRREZ MAGAÑA
-CÉSAR VILLASEÑOR SOTOMAYOR
-JESÚS GARCÍA PALOMERA
+SHANTI MARYSE GUTIÉRREZ MAGAÑA  
+CÉSAR VILLASEÑOR SOTOMAYOR  
+JESÚS GARCÍA PALOMERA  
 
 ## Descripción General
 En esta práctica, se implementa una aplicación de red basada en la arquitectura cliente-servidor utilizando sockets en Python. Tanto el servidor como el cliente pueden manejar la comunicación de forma simultánea usando hilos (`threads`). La interfaz gráfica para ambas aplicaciones se desarrolla con Tkinter, proporcionando una ventana para visualizar los mensajes recibidos y enviar respuestas.
@@ -32,23 +32,23 @@ El cliente se conecta al servidor utilizando sockets y, al igual que el servidor
 ## Validación
 A continuación, se presentan algunas capturas de pantalla de la validación del funcionamiento del sistema cliente-servidor:
 
-- **Conexión inicial del cliente al servidor**:
+- **Conexión inicial del cliente #1 al servidor**:
   
   ![Conexión inicial](test/test_cliente_servidor_1.png)
 
-- **Envío de mensaje del cliente al servidor**:
+- **Envío de mensaje del servidor a cliente**:
   
   ![Envío de mensaje del cliente](test/test_cliente_servidor_2.jpeg)
 
-- **Recepción del mensaje por parte del servidor**:
+- **Recepción del mensajes por parte del servidor y detección de errores de conexión**:
   
   ![Recepción del mensaje en el servidor](test/test_cliente_servidor_3.jpeg)
 
-- **Respuesta del servidor al cliente**:
+- **Respuesta del servidor al cliente #2**:
   
   ![Respuesta del servidor](test/test_cliente_servidor_4.jpeg)
 
-- **Visualización del intercambio de mensajes completo**:
+- **Visualización del interfaz del servidor**:
   
   ![Intercambio completo de mensajes](test/test_cliente_servidor_5.jpeg)
 
